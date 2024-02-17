@@ -29,6 +29,10 @@
   background-color: white;
 }
 
+.bi-filter-right {
+  font-size: 2.3rem;
+}
+
 .navbar-toggler {
   border: none !important;
   font-size: 1.25rem !important;
@@ -81,16 +85,6 @@
   font-weight: 500;
 }
 
-@media (max-width: 720px) {
-  .navbar .container {
-    padding: 0rem 0rem 0rem 1.5rem;
-  }
-
-  .brand-text div {
-    padding: 0 1rem;
-  }
-}
-
 /* integration-box */
 .integration-box {
   width: 250px;
@@ -133,4 +127,30 @@
 .img-software {
   width: 22rem;
   height: 22rem;
+}
+
+@media (max-width: 720px) {
+  .navbar .container {
+    padding: 0rem 0rem 0rem 1.5rem;
+  }
+
+  .hero-section > p {
+    width: 100%;
+  }
+
+  .brand-text div {
+    padding: 0 1rem;
+  }
+
+  .img-software {
+    margin-top: 20px;
+  }
+
+  .price-card {
+    margin-top: 20px;
+  }
+
+  .address-section {
+    margin-top: 20px;
+  }
 }
